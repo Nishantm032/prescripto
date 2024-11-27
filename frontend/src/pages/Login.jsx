@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
 
 
-const login = () => {
+const Login = () => {
 const {backendUrl, token, setToken} = useContext(AppContext)
 const navigate = useNavigate()
 
@@ -123,4 +123,4 @@ const navigate = useNavigate()
   );
 };
 
-export default login;
+export default Login;
